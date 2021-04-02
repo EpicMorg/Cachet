@@ -114,7 +114,7 @@ return [
         'analytics' => [
             'analytics_google'       => 'Код Google Analytics',
             'analytics_gosquared'    => 'Код GoSquared Analytics',
-            'analytics_piwik_url'    => 'URL Piwik сайта (без http(s)://)',
+            'analytics_piwik_url'    => 'URL Piwik сайта',
             'analytics_piwik_siteid' => 'Идентификатор сайта в Piwik',
         ],
         'localization' => [
