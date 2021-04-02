@@ -62,43 +62,43 @@ return [
     'schedule' => [
         'new' => [
             'mail' => [
-                'subject' => 'New Schedule Created',
-                'content' => ':name was scheduled for :date',
-                'title'   => 'A new scheduled maintenance was created.',
+                'subject' => 'Создано Новое Расписание',
+                'content' => ':name было запланировано на :date',
+                'title'   => 'Было создано новое плановое техническое обслуживание.',
                 'action'  => 'Просмотр',
             ],
             'slack' => [
-                'title'   => 'New Schedule Created!',
-                'content' => ':name was scheduled for :date',
+                'title'   => 'Создано Новое Расписание!',
+                'content' => ':name было запланировано на :date',
             ],
             'sms' => [
-                'content' => ':name was scheduled for :date',
+                'content' => ':name было запланировано на :date',
             ],
         ],
     ],
     'subscriber' => [
         'verify' => [
             'mail' => [
-                'subject' => 'Verify Your Subscription',
-                'content' => 'Click to verify your subscription to :app_name status page.',
-                'title'   => 'Verify your subscription to :app_name status page.',
-                'action'  => 'Verify',
+                'subject' => 'Проверьте Свою Подписку',
+                'content' => 'Нажмите, чтобы подтвердить подписку :app_name на сайте.',
+                'title'   => 'Подтвердите свою подписку :app_name на сайте.',
+                'action'  => 'Подтвердить',
             ],
         ],
         'manage' => [
             'mail' => [
-                'subject' => 'Manage Your Subscription',
-                'content' => 'Click to manage your subscription to :app_name status page.',
-                'title'   => 'Click to manage your subscription to :app_name status page.',
-                'action'  => 'Manage subscription',
+                'subject' => 'Управление Подпиской',
+                'content' => 'Нажмите, чтобы управлять подпиской :app_name на сайте.',
+                'title'   => 'Нажмите, чтобы управлять подпиской :app_name на сайте.',
+                'action'  => 'Управление Подпиской',
             ],
         ],
     ],
     'system' => [
         'test' => [
             'mail' => [
-                'subject' => 'Ping from Cachet!',
-                'content' => 'This is a test notification from Cachet!',
+                'subject' => 'Привет от Cachet!',
+                'content' => 'Это тестовое уведомление от Cachet!',
                 'title'   => '🔔',
             ],
         ],
@@ -106,10 +106,10 @@ return [
     'user' => [
         'invite' => [
             'mail' => [
-                'subject' => 'Your invitation is inside...',
-                'content' => 'You have been invited to join :app_name status page.',
-                'title'   => 'You\'re invited to join :app_name status page.',
-                'action'  => 'Accept',
+                'subject' => 'Ваше приглашение внутри...',
+                'content' => 'Вы были приглашены присоединиться к :app_name на сайте.',
+                'title'   => 'Вы были приглашены присоединиться к :app_name.',
+                'action'  => 'Принять',
             ],
         ],
     ],
