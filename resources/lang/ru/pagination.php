@@ -23,6 +23,6 @@ return [
     */
 
     'previous' => '&laquo; Назад',
-    'next'     => 'Вперёд &raquo;',
+    'next'     => 'Далее &raquo;',
 
 ];
