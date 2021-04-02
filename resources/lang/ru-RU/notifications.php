@@ -5,7 +5,7 @@
  *
  * (c) Alt Three Services Limited
  *
- * For the full copyright and license information, please view the LICENSE
+ * For the full copyright and license information, please Просмотр the LICENSE
  * file that was distributed with this source code.
  */
 
@@ -13,49 +13,49 @@ return [
     'component' => [
         'status_update' => [
             'mail' => [
-                'subject'  => 'Component Status Updated',
-                'greeting' => 'A component\'s status was updated!',
-                'content'  => ':name status changed from :old_status to :new_status.',
-                'action'   => 'View',
+                'subject'  => 'Обновление статуса компонента',
+                'greeting' => 'Статус компонента обновлен!',
+                'content'  => ':name статус изменился со старого :old_status на новый :new_status.',
+                'action'   => 'Просмотр',
             ],
             'slack' => [
-                'title'   => 'Component Status Updated',
-                'content' => ':name status changed from :old_status to :new_status.',
+                'title'   => 'Обновление статуса компонента',
+                'content' => ':name статус изменился со старого :old_status на новый :new_status.',
             ],
             'sms' => [
-                'content' => ':name status changed from :old_status to :new_status.',
+                'content' => ':name статус изменился со старого :old_status на новый :new_status.',
             ],
         ],
     ],
     'incident' => [
         'new' => [
             'mail' => [
-                'subject'  => 'New Incident Reported',
-                'greeting' => 'A new incident was reported at :app_name.',
-                'content'  => 'Incident :name was reported',
-                'action'   => 'View',
+                'subject'  => 'Зарегестрирован новый инцидент',
+                'greeting' => 'О новом инциденте было сообщено с помощью :app_name.',
+                'content'  => 'Было сообщено об инциденте :name',
+                'action'   => 'Просмотр',
             ],
             'slack' => [
-                'title'   => 'Incident :name Reported',
-                'content' => 'A new incident was reported at :app_name',
+                'title'   => 'Было сообщено об инциденте :name',
+                'content' => 'О новом инциденте было сообщено с помощью :app_name',
             ],
             'sms' => [
-                'content' => 'A new incident was reported at :app_name.',
+                'content' => 'О новом инциденте было сообщено с помощью :app_name.',
             ],
         ],
         'update' => [
             'mail' => [
-                'subject' => 'Incident Updated',
-                'content' => ':name was updated',
-                'title'   => ':name was updated to :new_status',
-                'action'  => 'View',
+                'subject' => 'Инцидент Обновлен',
+                'content' => 'Инцидент :name был обновлен',
+                'title'   => ':name был обновлен, новый статус :new_status',
+                'action'  => 'Просмотр',
             ],
             'slack' => [
-                'title'   => ':name Updated',
-                'content' => ':name was updated to :new_status',
+                'title'   => ':name был обновлен',
+                'content' => 'Инцидент :name был обновлен, новый статус :new_status',
             ],
             'sms' => [
-                'content' => 'Incident :name was updated',
+                'content' => 'Инцидент :name был обновлен',
             ],
         ],
     ],
@@ -65,7 +65,7 @@ return [
                 'subject' => 'New Schedule Created',
                 'content' => ':name was scheduled for :date',
                 'title'   => 'A new scheduled maintenance was created.',
-                'action'  => 'View',
+                'action'  => 'Просмотр',
             ],
             'slack' => [
                 'title'   => 'New Schedule Created!',
