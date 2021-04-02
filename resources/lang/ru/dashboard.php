@@ -12,11 +12,11 @@
 return [
 
     'dashboard'          => 'Панель управления',
-    'writeable_settings' => 'The Cachet settings directory is not writeable. Please make sure that <code>./bootstrap/cachet</code> is writeable by the web server.',
+    'writeable_settings' => 'Каталог настроек кэша не доступен для записи. Пожалуйста, убедитесь, что каталог <code>./bootstrap/cachet</code> доступен для записи веб-сервером.',
 
     // Incidents
     'incidents' => [
-        'title'                    => 'Incidents &amp; Schedule',
+        'title'                    => 'Инциденты и Плановые работы',
         'incidents'                => 'Инциденты',
         'logged'                   => '{0} Нет инцидентов, отличная работа!|У вас зарегистрирован <strong>:count</strong> инцидент.|У вас зарегистрировано <strong>:count</strong> инцидента.|У вас зарегистрировано <strong>:count</strong> инцидентов.',
         'incident-create-template' => 'Создать шаблон',
@@ -37,7 +37,7 @@ return [
             'failure' => 'Инцидент не может быть уделён, пожалуйста, попробуйте ещё раз.',
         ],
         'update' => [
-            'title'    => 'Create new incident update',
+            'title'    => 'Создание нового обновления инцидента',
             'subtitle' => 'Добавить обновление к <strong>:incident</strong>',
         ],
 
@@ -170,7 +170,7 @@ return [
         'team'        => 'Команда',
         'member'      => 'Участник',
         'profile'     => 'Профиль',
-        'description' => 'Team Members will be able to add, modify &amp; edit components and incidents.',
+        'description' => 'Члены команды смогут добавлять, изменять и редактировать компоненты и инциденты.',
         'add'         => [
             'title'   => 'Добавить нового участника команды',
             'success' => 'Участник команды добавлен.',
@@ -215,11 +215,11 @@ return [
             'footer'        => 'Нижний колонтитул HTML',
         ],
         'mail' => [
-            'mail'  => 'Mail',
-            'test'  => 'Test',
+            'mail'  => 'Почта',
+            'test'  => 'Проверка',
             'email' => [
-                'subject' => 'Test notification from Cachet',
-                'body'    => 'This is a test notification from Cachet.',
+                'subject' => 'Тестовое уведомление от Cachet',
+                'body'    => 'Это тестовое уведомление от Cachet.',
             ],
         ],
         'security' => [
